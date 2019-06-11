@@ -1,0 +1,16 @@
+.product-image {
+ 
+  font-size: 6em;
+  color: lightgray;
+}
+
+
+.product-image img{
+  width: 50%;
+  }
+
+
+.product-price {
+  font-weight: bold;
+}
+

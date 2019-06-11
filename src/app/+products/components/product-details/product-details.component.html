@@ -1,0 +1,26 @@
+<div class="product-details">
+  <div class="product">
+  <spa-product [name]="product.name"
+               [size]="'3'"
+               [price]="product.price"
+               [picture]="product.picture"
+               
+               
+  ></spa-product>
+
+    <div class="details">
+    
+      <p>შიდა მეხსიერება: 128 GB</p>
+      
+      <p>ოპერატიული მეხსიერება: 8 GB</p>
+      <p>პროცესორი:
+        Octa-core (2x2.73 GHz Mongoose M4 & 2x2.31 GHz Cortex-A75 & 4x1.95 GHz Cortex-A55)</p>
+  
+
+    </div>
+
+    <button class="add-to-cart" (click)="addToCart(product)">
+      Add to bag
+    </button>
+  </div>
+</div>
