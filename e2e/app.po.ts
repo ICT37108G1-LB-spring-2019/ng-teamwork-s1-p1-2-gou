@@ -1,11 +1,11 @@
-import { browser, element, by } from 'protractor';
+import { browser, by, element } from 'protractor';
 
-export class SmallCommercialSpaPage {
+export class ProjectPage {
   navigateTo() {
     return browser.get('/');
   }
 
   getParagraphText() {
-    return element(by.css('spa-root h1')).getText();
+    return element(by.css('app-root h1')).getText();
   }
 }
